@@ -109,6 +109,9 @@ ax.plot(shifted_z_list[:plot_length], Omega_m_list[:plot_length], label=r"$\Omeg
 ax.plot(shifted_z_list[:plot_length], Omega_DE_list[:plot_length], label=r"$\Omega_\phi$", color='red')
 ax.plot(shifted_z_list[:plot_length], w_eff_list[:plot_length], label=r"$w_{eff}$", color='springgreen')
 ax.plot(shifted_z_list[:plot_length], w_DE_list[:plot_length], label=r"$w_\phi$", color='dodgerblue')
+ax.plot(shifted_z_list[:plot_length], x1_list[:plot_length], label=r"$x_1$", color='cyan')
+ax.plot(shifted_z_list[:plot_length], x2_list[:plot_length], label=r"$x_2$", color='magenta')
+
 
 ax.set_xscale("log")
 ax.set_xlim(1e-1, 1e6)
