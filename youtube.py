@@ -108,7 +108,7 @@ st.markdown(f"""
 - 登録者数の閾値：{threshold}
 """)
 
-df_video = video_search(youtube, q=query, max_results=10)
+df_video = video_search(youtube, q=query, max_results=5)
 
 results = get_results(df_video, threshold=threshold)
 
